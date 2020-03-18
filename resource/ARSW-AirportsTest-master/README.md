@@ -1,6 +1,14 @@
 # Escuela Colombiana de Ingeniería Julio Garavito - Arquitecturas de Software ARSW - Parcial Segundo Tercio
 
+## Entrega trabajo
+1. El estilo de arquitectura que usamos en el proyecto es client/server, la cual hay un cliente que consulta la API de nuestro servidor (ademas de nuestro servidor ser un cliente de una API externa)
+2. Entrar a la carpeta desde la termina y usar mvn spring-boot:run, o se puede correr el main desde un IDE
+3. Ninguna clase esta fuertemente acoplada, además de usar inyección de dependencias lo cual ayuda a desacoplar un poco más, se puede extender creando un nuevo HTTPConection el cual podría consultar otra API facilmente
+
+4.[Enlace a APP desplegada en Heroku](https://morning-thicket-50169.herokuapp.com/)
+
 ## Preparación para el Parcial
+
 
 Con el objetivo de preparar el examen final del segundo tercio, por favor siga las siguientes instrucciones.
 
