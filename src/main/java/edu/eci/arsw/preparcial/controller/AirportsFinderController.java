@@ -29,13 +29,15 @@ public class AirportsFinderController {
     @Autowired
     private AirportsFinderServices airportsFinderServices;
 
+    /**
+     *
+     * @param name es el nombre del aeropuerto a consultar
+     * @return Responde con la consulta HTTP
+     */
     @RequestMapping(value = "/getairportsbyname/{name}",method = RequestMethod.GET)
     public ResponseEntity<?> getAirportsByName(@PathVariable String name){
         try {
             String consulta = airportsFinderServices.getAirportsByName(name);
-
-
-
             return new ResponseEntity<>(consulta, HttpStatus.OK);
         } catch (AirportsFinderException ex) {
             Logger.getLogger(AirportsFinderApiMain.class.getName()).log(Level.SEVERE, null, ex);

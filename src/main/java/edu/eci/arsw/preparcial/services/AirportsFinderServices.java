@@ -17,6 +17,12 @@ public class AirportsFinderServices{
     @Autowired
     AirportsFinderCache airportsFinderCache = null;
 
+    /**
+     *
+     * @param name es el nombre del aeropuerto a consultar
+     * @return Retorna el JSON correspondiente a la consulta en formato de String
+     * @throws AirportsFinderException Es la excepción que se lanza cuando no se encontró el recurso solicitado
+     */
     public String getAirportsByName(String name) throws AirportsFinderException {
         String data = null;
         try {

@@ -8,6 +8,12 @@ import org.springframework.stereotype.Service;
 @Service
 public class HttpConnectionService {
 
+    /**
+     *
+     * @param name es el nombre del aeropuerto a consultar
+     * @return Retorna el JSON correspondiente a la consulta en formato de String
+     * @throws UnirestException Es la excepción que lanza UniRest
+     */
     public String getAirportsByName(String name) throws UnirestException {
         String jsonString = null;
 
