@@ -1,8 +1,13 @@
 package edu.eci.arsw.preparcial.controller;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonParser;
+import com.mashape.unirest.http.JsonNode;
 import edu.eci.arsw.preparcial.AirportsFinderApiMain;
 import edu.eci.arsw.preparcial.services.AirportsFinderException;
 import edu.eci.arsw.preparcial.services.AirportsFinderServices;
+import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
@@ -24,17 +29,17 @@ public class AirportsFinderController {
     @Autowired
     private AirportsFinderServices airportsFinderServices;
 
-
-
     @RequestMapping(value = "/getairportsbyname/{name}",method = RequestMethod.GET)
     public ResponseEntity<?> getAirportsByName(@PathVariable String name){
         try {
             String consulta = airportsFinderServices.getAirportsByName(name);
+
+
+
             return new ResponseEntity<>(consulta, HttpStatus.OK);
         } catch (AirportsFinderException ex) {
             Logger.getLogger(AirportsFinderApiMain.class.getName()).log(Level.SEVERE, null, ex);
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
-
     }
 }
