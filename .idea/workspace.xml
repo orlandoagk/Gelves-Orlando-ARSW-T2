@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a7720429-c1f9-4859-894d-e1c7e8e1e21f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/preparcial/controller/AirportsFinderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/preparcial/controller/AirportsFinderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/preparcial/persistencia/AirportsFinderCacheImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/preparcial/persistencia/AirportsFinderCacheImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/preparcial/services/AirportsFinderServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/preparcial/services/AirportsFinderServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/preparcial/services/HttpConnectionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/preparcial/services/HttpConnectionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/estilo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/estilo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/apiclient.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/apiclient.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +30,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -72,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584492296475</updated>
       <workItem from="1584492297872" duration="4608000" />
-      <workItem from="1584500036170" duration="27068000" />
+      <workItem from="1584500036170" duration="28661000" />
     </task>
     <servers />
   </component>

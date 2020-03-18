@@ -4,7 +4,7 @@ var apiclient = ( function () {
 
         axios({
             method: 'GET',
-            url: 'http://localhost:8080/airportsfinder/getairportsbyname/'+name,
+            url: '/airportsfinder/getairportsbyname/'+name,
 
         })
             .then(response => callback(response.data))
